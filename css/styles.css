@@ -1,0 +1,82 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg");
+  background-position: -230px -450px, 750px 400px;
+  background-repeat: no-repeat;
+  background-size:auto,auto;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+@media (min-width:800px) and (max-width:1200px){
+  body{background-position:-300px -700px, 300px 350px}
+}
+@media (min-width:500px) and (max-width:800px){
+  body{background-position:-400px -700px, 200px 325px}
+}
+@media (max-width:500px){
+  body{background-position:-600px -700px, 200px 300px;
+       padding:100px 70px;}
+}
+.r-div{
+  margin:15% auto ;
+}
+.ft-card{
+  margin:0 auto;
+  border:0;
+  border-radius:5%;
+  overflow:hidden;
+  box-shadow: 0 0 1rem rgb(0 0 0 / 60%);
+  padding:0;
+}
+.profile-image{
+  border-radius:100%;
+  height:106px;
+  width:106px;
+  background-color: white;
+  margin:0 auto;
+  position:relative;
+  bottom:70px;
+}
+.profile-image img{
+  border-radius:100%;
+  padding:5px;
+}
+.c-body {
+  padding:0;
+}
+.card-upper-body{
+  position:relative;
+  bottom:35px;
+}
+.card-upper-body h5{
+  font-weight:bold;
+
+}
+.card-upper-body h5 span{
+   color:hsl(0, 0%, 59%);
+  font-size: 18px;
+  font-weight: 400;
+}
+.card-upper-body h6{
+  padding-top:10px;
+  color:hsl(0, 0%, 59%);
+  font-size: 16px;
+}
+.hor-row {
+  box-shadow:0 -0.2px 1px hsl(0, 0%, 59%);
+  padding:20px 40px 15px;
+}
+.hor-row div p{
+  font-weight: 700;
+  font-size: 18px;
+  margin:0;
+}
+.hor-row div span{
+  font-weight: 400;
+  font-size: 11px;
+  color:hsl(0, 0%, 59%);
+  letter-spacing: 1.5px;
+}
